@@ -1,6 +1,6 @@
 use std::net::TcpListener;
 
-use newsletter_api::configuration::{self, get_configuration};
+use newsletter_api::configuration::get_configuration;
 use newsletter_api::startup::run;
 
 #[tokio::main]
